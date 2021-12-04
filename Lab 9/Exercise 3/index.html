@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Xbox Store</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <header>
+            <p>Choose any item you want at any quanity.</p>
+        </header>
+        <main>
+			<div id="background"></div>
+			<form action="back.php" method="post">
+					<b>Forza Horizon 5, $50<br>
+					Quantity: <input type="number" id="Forza" name="Forza" min="0"><br><br>
+					Halo 4, $100<br>
+					Quantity: <input type="number" id="Halo" name="Halo" min="0"><br><br>
+					Golf with Friends, $15<br>
+					Quantity: <input type="number" id="Golf" name="Golf" min="0"><br><br>
+				<b>Enter in your information:</b><br>
+					Username: <input type="text" name="username" id="username"><br>
+					Password: <input type="text" name="password" id="password"><br><br>
+				<b>Choose your shipping option:</b><br>
+					<input type="radio" name="shipping" id="free" value="Free 7 Day">Free 7 Day<br>
+					<input type="radio" name="shipping" id="50" value="$50 Over Night">$50.00 Over Night<br>
+					<input type="radio" name="shipping" id="5" value="$5 Three Day">$5.00 Three Day<br>
+				<input type="submit" id="submit" value="Submit Quiz">
+				<input type="reset">
+			</form>
+        </main>
+        <script src="formChecker.js"></script>
+    </body>
+</html>
